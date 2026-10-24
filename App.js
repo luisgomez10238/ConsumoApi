@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { getPokemonList } from './src/services/pokeApi';
 
 export default function App() {
   return (
